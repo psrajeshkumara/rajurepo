@@ -1,2 +1,12 @@
+<<<<<<< HEAD
 hiiii
 looo
+=======
+sudo: 'required'
+
+before_install:
+  - npm install markdownlint-cli -g
+
+script:
+  - 'markdownlint --config .markdownlint.json README.md'
+>>>>>>> 50090d5e85afb8efcf834c521399ad117eebf36b
